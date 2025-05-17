@@ -4,8 +4,7 @@ package-lock.json
 
 # Environment
 .env
-*.env
-.env.*
+!.env.example
 
 # Firebase
 firebase-service-account.json
@@ -27,4 +26,3 @@ auth_info_baileys/
 usuarios.json
 updates_log.json
 commands_history.json
-
