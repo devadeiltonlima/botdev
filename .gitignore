@@ -1,6 +1,30 @@
-*.json
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
 .env
-auth_info_baileys/
+*.env
+.env.*
+
+# Firebase
+firebase-service-account.json
+google-credentials.json
+google-vision-credentials.json
+google-speech-credentials.json
+*-firebase-adminsdk-*.json
+
+# Runtime data
 data/
 downloads/
-node_modules/
+temp/
+*.log
+*.tmp
+*.temp
+auth_info_baileys/
+
+# JSON files that may contain sensitive data
+usuarios.json
+updates_log.json
+commands_history.json
+
