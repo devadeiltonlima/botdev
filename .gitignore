@@ -1,0 +1,6 @@
+*.json
+.env
+auth_info_baileys/
+data/
+downloads/
+node_modules/
